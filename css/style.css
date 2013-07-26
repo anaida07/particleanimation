@@ -1,0 +1,35 @@
+@font-face{
+	font-family: 'OpenSans';
+	src: url(../font/OpenSans.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background: #000;
+	padding:0;
+	margin:0;
+	color: #fff;
+	font-family: 'OpenSans';
+	font-size: 11px;
+	cursor: pointer;
+}
+.menu{
+	background: rgba(255, 255, 255, 0.1);
+	width: 250px;
+	padding:5px;
+	position: absolute;
+	top: 0;
+	left: 0
+}
+form, form p{
+	padding: 0;
+	margin: 0
+}
+form label{
+	display: inline-block;
+	margin-right: 10px;
+	width: 104px;
+}
+form input{
+	vertical-align: middle;
+}
