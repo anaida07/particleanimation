@@ -1,6 +1,6 @@
 (function($){
 	jQuery.fn.extend({
-		myPlugin : function(options){
+		AnimateParticle : function(options){
 
       var canvas = document.getElementById("canvas");
       var particles = [];
